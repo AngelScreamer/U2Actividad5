@@ -1,14 +1,14 @@
-﻿@model IEnumerable<Unidad2Actividad5.Models.Clase>
+﻿@model Unidad2Actividad5.Models.AnimalesViewModel;
 @{
     Layout = "_Layout";
 }
 <div class="slides">
-    <img src="images/carousel1.jpg">
+    <img src="images/carousel@(Model.Imagen).jpg">
 </div>
 
 <h1>Clasificación de los vertebrados</h1>
 <div class="clases">
-    @foreach (var clas in Model)
+    @foreach (var clas in Model.Clase)
     {
         <div>
             <a href="~/@clas.Nombre.Replace(" ", "-")">

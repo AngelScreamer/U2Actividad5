@@ -12,15 +12,11 @@ namespace Unidad2Actividad5.Controllers
         public IActionResult Index()
         {
             animalesContext context = new animalesContext();
-            var clasificacion = context.Clase.OrderBy(x => x.Nombre);
-            if (clasificacion == null)
-            {
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View(clasificacion);
-            }
+            AnimalesViewModel vm = new AnimalesViewModel();
+            vm.Clase = context.Clase.OrderBy(x => x.Nombre.ToUpper());
+            Random r = new Random();
+            vm.Imagen = r.Next(1, 6);
+            return View(vm);
         }
         [Route("{id}")]
         public IActionResult Clases(string id)

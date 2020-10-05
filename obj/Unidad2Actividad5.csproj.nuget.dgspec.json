@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\7Mo\\Padilla\\Unidad2Actividad5\\Unidad2Actividad5.csproj": {}
+    "C:\\Users\\robca\\Desktop\\Unidad2Actividad5\\Unidad2Actividad5.csproj": {}
   },
   "projects": {
-    "D:\\7Mo\\Padilla\\Unidad2Actividad5\\Unidad2Actividad5.csproj": {
+    "C:\\Users\\robca\\Desktop\\Unidad2Actividad5\\Unidad2Actividad5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\7Mo\\Padilla\\Unidad2Actividad5\\Unidad2Actividad5.csproj",
+        "projectUniqueName": "C:\\Users\\robca\\Desktop\\Unidad2Actividad5\\Unidad2Actividad5.csproj",
         "projectName": "Unidad2Actividad5",
-        "projectPath": "D:\\7Mo\\Padilla\\Unidad2Actividad5\\Unidad2Actividad5.csproj",
+        "projectPath": "C:\\Users\\robca\\Desktop\\Unidad2Actividad5\\Unidad2Actividad5.csproj",
         "packagesPath": "C:\\Users\\robca\\.nuget\\packages\\",
-        "outputPath": "D:\\7Mo\\Padilla\\Unidad2Actividad5\\obj\\",
+        "outputPath": "C:\\Users\\robca\\Desktop\\Unidad2Actividad5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
